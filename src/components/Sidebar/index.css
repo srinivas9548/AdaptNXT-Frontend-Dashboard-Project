@@ -1,0 +1,33 @@
+.sidebar {
+    width: 220px;
+    background-color: #fffeee;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.website-heading {
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-item {
+    padding: 15px 20px;
+    color: blueviolet;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar-item:hover,
+.sidebar-item.active {
+    background-color: #ffe4f7;
+    border-radius: 5px;
+}
